@@ -7,14 +7,7 @@
     "128": "icons/icon-128x128.png"
   },
 
-  "permissions": [
-    "storage",
-    "tabs",
-    "activeTab",
-    "scripting",
-    "scripting",
-    "activeTab"
-  ],
+  "permissions": ["storage", "tabs", "activeTab", "scripting", "scripting", "activeTab"],
 
   "action": {},
 
@@ -27,7 +20,7 @@
       "matches": ["<all_urls>"],
       "css": ["assets/content.css"],
       "js": ["my-content-script.js"],
-      "all_frames": true,
+      "all_frames": false,
       "run_at": "document_start"
     }
   ],
